@@ -27,7 +27,7 @@ export function Contact() {
       setForm((f) => ({ ...f, [k]: e.target.value }));
     };
 
-  const submit = (e: React.FormEvent) => {
+  const submit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     const { name, email, phone, topic, message } = form;
@@ -41,23 +41,19 @@ export function Contact() {
       return;
     }
 
-    const subject = encodeURIComponent(`[Dishi enquiry] ${topic} — ${name}`);
-    const body = encodeURIComponent(
-      `Name: ${name}\n` +
-      `Email: ${email}\n` +
-      (phone ? `Phone: ${phone}\n` : '') +
-      `Topic: ${topic}\n\n` +
-      `Message:\n${message}\n`
-    );
-    window.location.href = `mailto:info@dishisoftware.com?subject=${subject}&body=${body}`;
+    await fetch('https://api.dishisoftware.com/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, phone, helpWith: topic, message })
+    });
 
-    setStatus({ kind: 'success', msg: 'Opening your email app… if it didn’t open, write to info@dishisoftware.com.' });
+    setStatus({ kind: 'success', msg: 'Opening your email app… if it didn’t open, write to support@dishisoftware.com.' });
     setForm(EMPTY);
   };
 
   const statusClass =
     status.kind === 'success' ? 'is-success' :
-    status.kind === 'error'   ? 'is-error'   : '';
+      status.kind === 'error' ? 'is-error' : '';
 
   return (
     <section className="section contact-section" id="contact">
@@ -123,7 +119,8 @@ export function Contact() {
             </div>
             <div className="contact-block">
               <p className="lbl">Phone</p>
-              <p><a href="tel:+919667751771" data-cursor="hover">+91 96677 51771</a></p>
+              <p><a href="tel:+917982634542" data-cursor="hover">+91 79826 34542</a></p>
+              <p><a href="tel:+917982634542" data-cursor="hover">+91 79826 34542</a></p>
             </div>
             <div className="contact-block">
               <p className="lbl">Email</p>

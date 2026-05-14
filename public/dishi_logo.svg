@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <!-- Top arc: text baseline at r=232 (inner part of band), letters extend outward toward the rim -->
+    <path id="topArc" d="M 68,300 A 232,232 0 0 1 532,300" fill="none"/>
+    <!-- Bottom arc: text baseline at r=262 (outer part of band), letters extend inward toward the center -->
+    <path id="bottomArc" d="M 38,300 A 262,262 0 0 0 562,300" fill="none"/>
+  </defs>
+
+  <!-- Outer gray badge background -->
+  <circle cx="300" cy="300" r="270" fill="#e8e8e6"/>
+  <!-- Outer thin border -->
+  <circle cx="300" cy="300" r="268" fill="none" stroke="#2b2b2b" stroke-width="1.2"/>
+  <!-- Inner white area -->
+  <circle cx="300" cy="300" r="225" fill="#ffffff"/>
+  <!-- Inner thin border -->
+  <circle cx="300" cy="300" r="223" fill="none" stroke="#2b2b2b" stroke-width="1.2"/>
+
+  <!-- Top curved text: DISHI SOFTWARE SOLUTIONS -->
+  <text font-family="Georgia, 'Times New Roman', serif"
+        font-size="26"
+        font-weight="bold"
+        fill="#2b2b2b"
+        letter-spacing="2.5">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">
+      DISHI SOFTWARE SOLUTIONS
+    </textPath>
+  </text>
+
+  <!-- Bottom curved text: EXCELLENCE IN EVERY DETAIL -->
+  <text font-family="Georgia, 'Times New Roman', serif"
+        font-size="24"
+        fill="#2b2b2b"
+        letter-spacing="2.5">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">
+      EXCELLENCE IN EVERY DETAIL
+    </textPath>
+  </text>
+
+  <!-- Side bullet dots inside the band -->
+  <circle cx="42" cy="300" r="5" fill="#2b2b2b"/>
+  <circle cx="558" cy="300" r="5" fill="#2b2b2b"/>
+
+  <!-- ========== KEYBOARD ICON ========== -->
+  <g transform="translate(300,310) scale(0.78)">
+    <!-- Cable/connector -->
+    <rect x="-25" y="-95" width="50" height="6" rx="2" fill="#2b2b2b"/>
+    <line x1="0" y1="-89" x2="0" y2="-72" stroke="#2b2b2b" stroke-width="3"/>
+
+    <!-- Keyboard body -->
+    <rect x="-120" y="-70" width="240" height="120" rx="14" ry="14"
+          fill="#3a3a3a" stroke="#2b2b2b" stroke-width="2"/>
+    <rect x="-112" y="-62" width="224" height="104" rx="10" ry="10"
+          fill="none" stroke="#5a5a5a" stroke-width="1"/>
+
+    <!-- Row 1 -->
+    <g fill="#dcdcdc">
+      <rect x="-108" y="-56" width="18" height="18" rx="2"/>
+      <rect x="-86"  y="-56" width="18" height="18" rx="2"/>
+      <rect x="-64"  y="-56" width="18" height="18" rx="2"/>
+      <rect x="-42"  y="-56" width="18" height="18" rx="2"/>
+      <rect x="-20"  y="-56" width="18" height="18" rx="2"/>
+      <rect x="2"    y="-56" width="18" height="18" rx="2"/>
+      <rect x="24"   y="-56" width="18" height="18" rx="2"/>
+      <rect x="46"   y="-56" width="18" height="18" rx="2"/>
+      <rect x="68"   y="-56" width="18" height="18" rx="2"/>
+      <rect x="90"   y="-56" width="18" height="18" rx="2"/>
+    </g>
+    <!-- Row 2 -->
+    <g fill="#dcdcdc">
+      <rect x="-108" y="-34" width="18" height="18" rx="2"/>
+      <rect x="-86"  y="-34" width="18" height="18" rx="2"/>
+      <rect x="-64"  y="-34" width="18" height="18" rx="2"/>
+      <rect x="-42"  y="-34" width="18" height="18" rx="2"/>
+      <rect x="-20"  y="-34" width="18" height="18" rx="2"/>
+      <rect x="2"    y="-34" width="18" height="18" rx="2"/>
+      <rect x="24"   y="-34" width="18" height="18" rx="2"/>
+      <rect x="46"   y="-34" width="18" height="18" rx="2"/>
+      <rect x="68"   y="-34" width="18" height="18" rx="2"/>
+      <rect x="90"   y="-34" width="18" height="18" rx="2"/>
+    </g>
+    <!-- Row 3 -->
+    <g fill="#dcdcdc">
+      <rect x="-108" y="-12" width="18" height="18" rx="2"/>
+      <rect x="-86"  y="-12" width="18" height="18" rx="2"/>
+      <rect x="-64"  y="-12" width="18" height="18" rx="2"/>
+      <rect x="-42"  y="-12" width="18" height="18" rx="2"/>
+      <rect x="-20"  y="-12" width="18" height="18" rx="2"/>
+      <rect x="2"    y="-12" width="18" height="18" rx="2"/>
+      <rect x="24"   y="-12" width="18" height="18" rx="2"/>
+      <rect x="46"   y="-12" width="18" height="18" rx="2"/>
+      <rect x="68"   y="-12" width="18" height="18" rx="2"/>
+      <rect x="90"   y="-12" width="18" height="18" rx="2"/>
+    </g>
+    <!-- Row 4 -->
+    <g fill="#dcdcdc">
+      <rect x="-108" y="10" width="28" height="18" rx="2"/>
+      <rect x="-76"  y="10" width="18" height="18" rx="2"/>
+      <rect x="-54"  y="10" width="18" height="18" rx="2"/>
+      <rect x="-32"  y="10" width="18" height="18" rx="2"/>
+      <rect x="-10"  y="10" width="18" height="18" rx="2"/>
+      <rect x="12"   y="10" width="18" height="18" rx="2"/>
+      <rect x="34"   y="10" width="18" height="18" rx="2"/>
+      <rect x="56"   y="10" width="18" height="18" rx="2"/>
+      <rect x="80"   y="10" width="28" height="18" rx="2"/>
+    </g>
+    <!-- Row 5: space bar -->
+    <g fill="#dcdcdc">
+      <rect x="-108" y="32" width="22" height="18" rx="2"/>
+      <rect x="-82"  y="32" width="22" height="18" rx="2"/>
+      <rect x="-56"  y="32" width="100" height="18" rx="2"/>
+      <rect x="48"   y="32" width="22" height="18" rx="2"/>
+      <rect x="74"   y="32" width="22" height="18" rx="2"/>
+      <rect x="100"  y="32" width="8"  height="18" rx="2"/>
+    </g>
+  </g>
+</svg>

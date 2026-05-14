@@ -59,21 +59,7 @@ export function Header() {
       <div className="container header-inner">
         <a href="#home" className="brand" data-cursor="hover" onClick={handleClick('home')}>
           <span className="brand-mark">
-            <svg viewBox="0 0 40 40" width="32" height="32" aria-hidden="true">
-              <defs>
-                <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stopColor="#7c3aed" />
-                  <stop offset="100%" stopColor="#22d3ee" />
-                </linearGradient>
-              </defs>
-              <path
-                d="M20 3 L34 11 L34 29 L20 37 L6 29 L6 11 Z"
-                fill="none"
-                stroke="url(#brandGrad)"
-                strokeWidth="2.2"
-              />
-              <path d="M14 14 h8 a6 6 0 0 1 0 12 h-8 z" fill="url(#brandGrad)" />
-            </svg>
+            <img src="/logo.svg" alt="Dishi Software Solutions" width={40} height={40} />
           </span>
           <span className="brand-text">
             <span className="brand-name">Dishi</span>

@@ -25,7 +25,7 @@ export function Work() {
             <iframe
               src="https://squareandcube.in/"
               loading="lazy"
-              title="Square and Cube — website built by Dishi Software Solutions"
+              title="Square and Cube Company — website built by Dishi Software Solutions"
               referrerPolicy="no-referrer"
               sandbox="allow-scripts allow-same-origin"
             />
@@ -33,13 +33,13 @@ export function Work() {
           </div>
           <div className="work-meta">
             <span className="tag">Marketing website</span>
-            <h3>Square &amp; Cube</h3>
+            <h3>Square &amp; Cube Company</h3>
             <p>
-              A clean, responsive corporate website for Square &amp; Cube — designed and developed
+              A clean, responsive corporate website for Square &amp; Cube Company — designed and developed
               end-to-end by the Dishi team. Custom layouts, content sections and contact integration.
             </p>
             <ul className="work-stack">
-              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>jQuery</li>
+              <li>HTML</li><li>CSS</li><li>ReactJS</li><li>JavaScript</li><li>jQuery</li>
             </ul>
             <a
               href="https://squareandcube.in/"

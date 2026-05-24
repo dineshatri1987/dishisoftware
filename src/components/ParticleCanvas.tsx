@@ -92,7 +92,7 @@ export function ParticleCanvas() {
           const dist = Math.sqrt(dx * dx + dy * dy);
           if (dist < LINK) {
             const alpha = (1 - dist / LINK) * 0.35;
-            ctx.strokeStyle = `rgba(125, 167, 245, ${alpha})`;
+            ctx.strokeStyle = `rgba(109, 40, 217, ${alpha})`;
             ctx.lineWidth = 1;
             ctx.beginPath();
             ctx.moveTo(a.x, a.y);

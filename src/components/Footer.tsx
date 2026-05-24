@@ -22,7 +22,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="container footer-inner">
         <div className="foot-brand">
-          <span className="brand-name">Dishi Software Solutions</span>
+          <span className="brand-name">Divora Technology</span>
           <span className="brand-sub">Crafted code. Real results.</span>
         </div>
         <div className="foot-links">
@@ -33,7 +33,7 @@ export function Footer() {
           ))}
         </div>
         <p className="foot-legal">
-          © {year} Dishi Software Solutions. Owner: Khajani Devi. All rights reserved.
+          © {year} Divora Technology. Owner: Khajani Devi. All rights reserved.
         </p>
       </div>
     </footer>

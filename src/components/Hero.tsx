@@ -79,7 +79,7 @@ export function Hero() {
             </span>
           </h1>
           <p className="hero-sub">
-            Dishi Software Solutions is a Noida-based product studio. We design and engineer
+            Divora Technology is a Noida-based product studio. We design and engineer
             full-stack web applications with <strong>.NET, Python, Node.js</strong> on the backend
             and <strong>React, Vue and Next.js</strong> up front.
           </p>
@@ -106,12 +106,12 @@ export function Hero() {
           <div className="visual-card">
             <div className="window-bar">
               <span /><span /><span />
-              <em>~/dishi/app.tsx</em>
+              <em>~/divora/app.tsx</em>
             </div>
             <pre className="code">
               <code>
-                <span className="t-c">{`// Dishi Software Solutions`}</span>{'\n'}
-                <span className="t-k">import</span>{' { '}<span className="t-v">Idea</span>{', '}<span className="t-v">Team</span>{', '}<span className="t-v">Code</span>{' } '}<span className="t-k">from</span>{' '}<span className="t-s">"dishi"</span>{';\n\n'}
+                <span className="t-c">{`// Divora Technology`}</span>{'\n'}
+                <span className="t-k">import</span>{' { '}<span className="t-v">Idea</span>{', '}<span className="t-v">Team</span>{', '}<span className="t-v">Code</span>{' } '}<span className="t-k">from</span>{' '}<span className="t-s">"divora"</span>{';\n\n'}
                 <span className="t-k">export const</span>{' '}<span className="t-f">build</span>{' = '}<span className="t-k">async</span>{' () => {\n'}
                 {'  '}<span className="t-k">const</span>{' idea  = '}<span className="t-k">await</span>{' '}<span className="t-v">Idea</span>.<span className="t-f">listen</span>{'('}<span className="t-v">client</span>{');\n'}
                 {'  '}<span className="t-k">const</span>{' team  = '}<span className="t-v">Team</span>.<span className="t-f">assemble</span>{'(['}<span className="t-s">".NET"</span>{', '}<span className="t-s">"Node"</span>{', '}<span className="t-s">"React"</span>{']);\n'}

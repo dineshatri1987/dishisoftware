@@ -14,7 +14,7 @@ const EMPTY: FormState = { name: '', email: '', phone: '', topic: '', message: '
 const TOPICS = [
   'New project',
   'Existing project / support',
-  'Hire Dishi as a team',
+  'Hire Divora as a team',
   'Other',
 ];
 
@@ -41,13 +41,13 @@ export function Contact() {
       return;
     }
 
-    await fetch('https://api.dishisoftware.com/api/contact', {
+    await fetch('https://api.divoratechnology.com/api/contact', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email, phone, helpWith: topic, message })
     });
 
-    setStatus({ kind: 'success', msg: 'Opening your email app… if it didn’t open, write to support@dishisoftware.com.' });
+    setStatus({ kind: 'success', msg: 'Opening your email app… if it didn’t open, write to support@divoratechnology.com.' });
     setForm(EMPTY);
   };
 
@@ -125,9 +125,9 @@ export function Contact() {
             <div className="contact-block">
               <p className="lbl">Email</p>
               <p>
-                <a href="mailto:info@dishisoftware.com" data-cursor="hover">info@dishisoftware.com</a><br />
-                <a href="mailto:support@dishisoftware.com" data-cursor="hover">support@dishisoftware.com</a><br />
-                <a href="mailto:account@dishisoftware.com" data-cursor="hover">account@dishisoftware.com</a>
+                <a href="mailto:info@divoratechnology.com" data-cursor="hover">info@divoratechnology.com</a><br />
+                <a href="mailto:support@divoratechnology.com" data-cursor="hover">support@divoratechnology.com</a><br />
+                <a href="mailto:account@divoratechnology.com" data-cursor="hover">account@divoratechnology.com</a>
               </p>
             </div>
             <div className="contact-block hours">

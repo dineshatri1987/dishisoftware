@@ -1,6 +1,6 @@
-# Dishi Software Solutions
+# Divora Technology
 
-Marketing website for **Dishi Software Solutions** — a Noida-based product studio that designs and engineers full-stack web applications.
+Marketing website for **Divora Technology** — a Noida-based product studio that designs and engineers full-stack web applications.
 
 Built as a single-page React app with a custom-animated, no-framework UI (cursor follower, particle hero, scroll progress, tilt cards, reveal-on-scroll, rotating headline, animated counters).
 
@@ -40,7 +40,7 @@ No router, no state library, no backend — the contact form opens the user's ma
 ## Project structure
 
 ```
-dishisoftware/
+divoratechnology/
 ├── index.html              # HTML shell + font preconnects + meta description
 ├── package.json            # Scripts and deps (React 19, Vite 6)
 ├── vite.config.ts          # Vite config — dev server on port 5173, auto-open
@@ -58,7 +58,7 @@ dishisoftware/
     │   ├── Work.tsx
     │   ├── Process.tsx
     │   ├── About.tsx
-    │   ├── Contact.tsx         # Form -> mailto:info@dishisoftware.com
+    │   ├── Contact.tsx         # Form -> mailto:info@divoratechnology.com
     │   ├── Footer.tsx
     │   ├── Cursor.tsx          # Custom cursor for fine pointers
     │   ├── ScrollProgress.tsx  # Top scroll bar
@@ -113,7 +113,7 @@ npm run preview
 
 - **Reduced motion:** every animated effect (rotating headline, counters, smooth scroll, particles, tilt, reveals) checks `prefers-reduced-motion` and degrades gracefully.
 - **Fine-pointer features:** the custom cursor, card tilt, and spotlight only activate on devices with `(hover: hover) and (pointer: fine)`.
-- **Contact form:** validates name/email/topic/message client-side and opens the user's default mail client with a pre-filled message to `info@dishisoftware.com`. No backend required.
+- **Contact form:** validates name/email/topic/message client-side and opens the user's default mail client with a pre-filled message to `info@divoratechnology.com`. No backend required.
 - **SEO:** description and Open Graph-friendly title set in [index.html](index.html).
 
 ---
@@ -124,11 +124,11 @@ The contact details rendered on the site (kept here for convenience):
 
 - **Office:** F-1004, Amrapali Platinum, Sector 119, Noida 201301, Uttar Pradesh, India
 - **Phone:** +91 96677 51771
-- **Email:** info@dishisoftware.com · support@dishisoftware.com · account@dishisoftware.com
+- **Email:** info@divoratechnology.com · support@divoratechnology.com · account@divoratechnology.com
 - **Hours:** Mon – Sat · 10:00 – 19:00 IST
 
 ---
 
 ## License
 
-Private — © Dishi Software Solutions. All rights reserved.
+Private — © Divora Technology. All rights reserved.

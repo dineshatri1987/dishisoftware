@@ -59,11 +59,11 @@ export function Header() {
       <div className="container header-inner">
         <a href="#home" className="brand" data-cursor="hover" onClick={handleClick('home')}>
           <span className="brand-mark">
-            <img src="/logo.svg" alt="Dishi Software Solutions" width={40} height={40} />
+            <img src="/logo.svg" alt="Divora Technology" width={40} height={40} />
           </span>
           <span className="brand-text">
-            <span className="brand-name">Dishi</span>
-            <span className="brand-sub">Software Solutions</span>
+            <span className="brand-name">Divora</span>
+            <span className="brand-sub">Technology</span>
           </span>
         </a>
 

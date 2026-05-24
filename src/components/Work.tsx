@@ -25,7 +25,7 @@ export function Work() {
             <iframe
               src="https://squareandcube.in/"
               loading="lazy"
-              title="Square and Cube Company — website built by Dishi Software Solutions"
+              title="Square and Cube Company — website built by Divora Technology"
               referrerPolicy="no-referrer"
               sandbox="allow-scripts allow-same-origin"
             />
@@ -36,7 +36,7 @@ export function Work() {
             <h3>Square &amp; Cube Company</h3>
             <p>
               A clean, responsive corporate website for Square &amp; Cube Company — designed and developed
-              end-to-end by the Dishi team. Custom layouts, content sections and contact integration.
+              end-to-end by the Divora team. Custom layouts, content sections and contact integration.
             </p>
             <ul className="work-stack">
               <li>HTML</li><li>CSS</li><li>ReactJS</li><li>JavaScript</li><li>jQuery</li>

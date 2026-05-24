@@ -23,10 +23,10 @@ export function About() {
     <section className="section about-section" id="about">
       <div className="container split">
         <Reveal>
-          <p className="eyebrow"><span className="dot" /> About Dishi</p>
+          <p className="eyebrow"><span className="dot" /> About Divora</p>
           <h2>A small studio with senior hands.</h2>
           <p>
-            Dishi Software Solutions is an independent IT studio based in{' '}
+            Divora Technology is an independent IT studio based in{' '}
             <strong>Sector 119, Noida</strong>. We partner with founders, marketing teams
             and growing businesses to build software that earns its place in production.
           </p>
@@ -43,7 +43,7 @@ export function About() {
         </Reveal>
 
         <Reveal as="aside" className="info-box">
-          <h3>Why teams pick Dishi</h3>
+          <h3>Why teams pick Divora</h3>
           <ul>
             {WHY.map((line) => (
               <li key={line}><span>★</span> {line}</li>

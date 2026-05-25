@@ -5,7 +5,7 @@ Marketing website for **Divora Technology** — a Noida-based product studio tha
 Built as a single-page React app with a custom-animated, no-framework UI (cursor follower, particle hero, scroll progress, tilt cards, reveal-on-scroll, rotating headline, animated counters).
 
 ---
-
+Test
 ## ✨ Features
 
 - **Interactive Hero Section**: Dynamic rotating taglines ("scales beautifully", "ships fast", "feels effortless", "drives revenue") with animated particle background
